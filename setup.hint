@@ -1,0 +1,4 @@
+category: Gnome
+requires: libcairo2 libebook1.2_12 libedataserver1.2_15 libfolks25 libgdk_pixbuf2.0_0 libgee2 libglib2.0_0 libgnome-desktop3_2 libgoa1.0_0 libgtk3_0 libintl8 libnotify4 libpango1.0_0 libtelepathy-glib0
+sdesc: "GNOME contacts manager"
+ldesc: "GNOME contacts manager"
