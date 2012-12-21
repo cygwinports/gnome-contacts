@@ -1,0 +1,14 @@
+inherit gnome2
+
+NAME="gnome-contacts"
+VERSION=3.6.2
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="GNOME contacts manager"
+DESCRIPTION="GNOME contacts manager"
+
+# force regeneration of sources without Cheese support
+DISTCLEANFILES="src/gnome_contacts_vala.stamp"
+DIFF_EXCLUDES="src"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/${NAME}"
