@@ -1,0 +1,12 @@
+--- origsrc/gnome-contacts-3.8.3/configure.ac	2013-07-15 13:29:42.000000000 -0500
++++ src/gnome-contacts-3.8.3/configure.ac	2014-03-25 09:23:33.012542100 -0500
+@@ -26,8 +26,7 @@ GLIB_GSETTINGS
+ # i18n stuff
+ IT_PROG_INTLTOOL([0.40])
+ 
+-AM_GNU_GETTEXT([external])
+-AM_GNU_GETTEXT_VERSION([0.17])
++AM_GLIB_GNU_GETTEXT
+ 
+ GETTEXT_PACKAGE=gnome-contacts
+ AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE], ["$GETTEXT_PACKAGE"], [Gettext Package])
