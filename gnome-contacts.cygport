@@ -1,8 +1,8 @@
 inherit gnome2
 
 NAME="gnome-contacts"
-VERSION=3.8.3
-RELEASE=2
+VERSION=3.10.1
+RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GNOME contacts manager"
 DESCRIPTION="GNOME contacts manager"
