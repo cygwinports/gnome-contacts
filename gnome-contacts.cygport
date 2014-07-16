@@ -10,6 +10,8 @@ OBSOLETES="contacts"
 
 PATCH_URI="3.8.3-glib-gettext.patch"
 
+REQUIRES="gnome-control-center"
+
 # force regeneration of sources without Cheese support
 DISTCLEANFILES="src/gnome_contacts_vala.stamp"
 DIFF_EXCLUDES="src"
