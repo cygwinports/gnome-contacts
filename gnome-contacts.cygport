@@ -19,3 +19,10 @@ DISTCLEANFILES="src/gnome_contacts_vala.stamp"
 DIFF_EXCLUDES="*.c *.stamp"
 
 ACLOCAL_FLAGS="-I libgd"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	desktop-file-edit --remove-key=OnlyShowIn ${D}/usr/share/applications/*.desktop
+}
